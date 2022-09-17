@@ -1,3 +1,5 @@
+//CARRITO DE COMPRA ALCOHOL
+
 const addToShoppingCartButtons = document.querySelectorAll('.addToCart');
 addToShoppingCartButtons.forEach((addToCartButton) => {
     addToCartButton.addEventListener('click', addToCartClicked);
@@ -116,3 +118,7 @@ function comprarButtonClicked() {
     shoppingCartItemsContainer.innerHTML = '';
     updateShoppingCartTotal();
 }
+
+
+//CARRITO COMIDA
+

@@ -27,8 +27,16 @@ img {
   color: white;
 }
 
-.container {
-  padding: 50px;
+.item-image {
+    max-width: 460px;
+  max-height: 460px;
+  border-radius: 17px;
+}
+.item-title {
+  color: white;
+}
+.item-price {
+  color: white;
 }
 .buscador{
   color: white;
