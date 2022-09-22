@@ -20,7 +20,7 @@ const Aperitivo3 = new Producto("Michelada" , 3000);
 
 // OBJ Jugos
 const Jugo1 = new Producto("Jugo De Naranja" , 2000);
-const Jugo2 = new Producto("Jugo De Piña", 2500);
+const Jugo2 = new Producto("Jugo De Piña", 2000);
 const Jugo3 = new Producto("Jugo De Frutilla", 2000);
 
 
