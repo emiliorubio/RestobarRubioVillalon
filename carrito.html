@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="estilos.css">
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>contacto</title>
+    <link rel="stylesheet" href="contacto.css" />
+  </head>
+
+  <body class="bg-dark">
+    <!-- navbar-->
+    <nav
+      class="navbar navbar-expand-md navbar navbar-dark fixed-top bg-dark navbar-main"
+    >
+      <div class="container">
+        <!--branding-->
+        <a href="#" class="navbar-brands"> </a>
+        <!--btn-->
+        <button
+          class="navbar-toggler"
+          data-bs-taggle="collapse"
+          data-bs-target="#mainnav"
+          aria-expanded="flase"
+          aria-label="barra de navegacion"
+          aria-controls="mainnav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--items-->
+        <div class="collapse navbar-collapse" id="mainnav">
+          <div class="nav m-sm-auto text-dark">
+            <a href="index.html" class="nav-link">Inicio</a>
+            <a href="productos/Aperitivo.html" class="nav-link">Aperitivo</a>
+            <a href="productos/Comida.html" class="nav-link">Comida</a>
+            <a href="productos/Jugos.html" class="nav-link">Jugos</a>
+            <a href="contacto.html" class="nav-link">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="contenedor-formulario mt-5">
+      <h1>Carrito</h1>
+
+      <div id="contenedor-carrito"></div>
+      <h3 class="ml-4 mb-0 shoppingCartTotal text text-white">$0</h3>
+    </div>
+
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <nav class="row">
+          <a
+            href="#"
+            class="col-3 text-reset text-uppercase d-flex align-items-center"
+          >
+          </a>
+          <!--menu-->
+          <ul class="col-3 list-unstyled">
+            <li class="font-weight-bold text-uppercase">Resource</li>
+            <li><a href="#" class="text-reset">link 1</a></li>
+            <li><a href="#" class="text-reset">link 2</a></li>
+            <li><a href="#" class="text-reset">link 3</a></li>
+          </ul>
+          <!--menu-->
+          <ul class="col-3 list-unstyled">
+            <li class="font-weight-bold text-uppercase">Quick Links</li>
+            <li><a href="#" class="text-reset">link 1</a></li>
+            <li><a href="#" class="text-reset">link 2</a></li>
+            <li><a href="#" class="text-reset">link 3</a></li>
+          </ul>
+          <!--redes sociales-->
+
+          <div class="icon">
+            <svg heigth="80" width="80">
+              <circle
+                cx="40"
+                cy="40"
+                r="35"
+                stroke="white"
+                stroke-width="4"
+                fill="none"
+              ></circle>
+            </svg>
+            <i class="bx bxl-instagram"></i>
+          </div>
+          <div class="icon">
+            <svg heigth="80" width="80">
+              <circle
+                cx="40"
+                cy="40"
+                r="35"
+                stroke="white"
+                stroke-width="4"
+                fill="none"
+              ></circle>
+            </svg>
+            <i class="bx bxl-facebook-circle"></i>
+          </div>
+          <div class="icon">
+            <svg heigth="80" width="80">
+              <circle
+                cx="40"
+                cy="40"
+                r="35"
+                stroke="white"
+                stroke-width="4"
+                fill="none"
+              ></circle>
+            </svg>
+            <i class="bx bxl-twitter"></i>
+          </div>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="./carrito.js"></script>
+  </body>
+</html>
